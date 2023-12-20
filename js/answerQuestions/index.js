@@ -117,10 +117,10 @@ export default class AnswerQuestions {
     
       // 绘制输入框中的文本
       ctx.fillStyle = '#000000';
-      ctx.font = '16px sans-serif';
-      ctx.textAlign = 'center';
+      ctx.font = '12px sans-serif';
+      ctx.textAlign = 'start';
       ctx.textBaseline = 'middle';
-      ctx.fillText(value, x + 150 / 2, y + 30 / 2);
+      ctx.fillText(value, x + 10, y + 30 / 2);
     }
     
     // 绘制按钮
