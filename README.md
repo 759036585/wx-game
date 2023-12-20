@@ -1,5 +1,3 @@
-## quickstart
-
 ## 源码目录介绍
 ```
 ./js
@@ -15,6 +13,8 @@
 ├── player
 │   ├── bullet.js                          // 子弹类
 │   └── index.js                           // 玩家类
+├── answerQuestions
+│   └──  index.js                          // 回答问卷类
 ├── runtime
 │   ├── background.js                      // 背景类
 │   ├── gameinfo.js                        // 用于展示分数和结算界面
@@ -23,3 +23,12 @@
 └── main.js                                // 游戏入口主函数
 
 ```
+
+## 打开目标小程序问卷参数设置
+
+
+| 参数    | 说明 | 是否必需 | 例子
+| -------- | ------- |------- |
+| sid  | 问卷ID    | 是 | '656556d8426fb8a9f901dc12'
+| urlQuery  | 打开问卷时候自定义的 Url Query参数    | 否 | 'area=12&plat=a'
+| uid  | 用户的唯一标识，用于问卷非严格模式登录    | 否 | 'xxx'
